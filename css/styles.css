@@ -11600,8 +11600,8 @@ html {
   width: 300px;
   border-radius: 5vw;
   margin-top: 5vw;
-  /* max-height: 40rem;
-  max-width: 40rem; */
+  max-height: 500px;
+  max-width: 500px;
 }
 .profile .profile-img {
   height: 500px;
