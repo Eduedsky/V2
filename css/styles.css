@@ -11604,9 +11604,9 @@ html {
   max-width: 40rem;
 }
 .profile .profile-img {
-  height: 120vw;
+  height: 120px;
   /* max-height: 45rem; */
-  position: absolute;
+  position: relative;
   bottom: 0;
   left: 50%;
   transform: translateX(-50%);
