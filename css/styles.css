@@ -11595,7 +11595,7 @@ html {
 }
 
 .profile {
-  /* position: relative; */
+  position: relative;
   height: 300px;
   width: 300px;
   border-radius: 5vw;
