@@ -11747,3 +11747,110 @@ html {
     left: -2vw;
   }
 }
+
+/* Header Dotted Background */
+.header-dotted {
+    position: relative;
+}
+
+.dotted-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: radial-gradient(circle, rgba(255, 255, 255, 0.3) 2px, transparent 2px);
+    background-size: 25px 25px;
+    pointer-events: none;
+    opacity: 0.4;
+}
+
+/* CTA Button Hover Effect */
+.btn:hover {
+    transform: scale(1.05);
+    transition: all 0.3s ease-in-out;
+}
+
+/* Icon Hover Effect */
+.footer-icons a:hover {
+    color: #3366FF;
+    transform: translateY(-3px);
+    transition: all 0.3s ease;
+}
+
+/* Image of Me */
+.profile-image {
+    width: 240px;
+    border-radius: 50%;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    margin-top: -60px;
+    transition: all 0.3s ease;
+}
+
+.profile-image:hover {
+    transform: scale(1.1);
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.3);
+}
+
+/* Get in Touch Section */
+.get-in-touch {
+    background: #f8f9fa;
+    padding: 60px 0;
+}
+
+/* Work Highlights Card Effect */
+.card:hover {
+    transform: translateY(-10px);
+    transition: all 0.3s ease;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+}
+
+/* Typography Improvements */
+h1, h2, h5 {
+    font-weight: 900;
+    color: #003366;
+}
+
+p.lead {
+    color: #333;
+}
+
+/* Button Improvements */
+.btn-primary {
+    background-color: #3366FF;
+    border-color: #3366FF;
+}
+
+.btn-primary:hover {
+    background-color: #254EDB;
+    border-color: #254EDB;
+}
+
+@media (max-width: 768px) {
+    /* Hero Section - Mobile Adjustments */
+    .header-dotted .profile-image {
+        width: 180px; /* Reduce size for better fit */
+        margin-top: 20px; /* Adjust margin to prevent overlap */
+    }
+
+    /* Text Adjustments for Mobile */
+    .display-3 {
+        font-size: 2rem; /* Smaller text for mobile */
+    }
+
+    .lead {
+        font-size: 1rem;
+        line-height: 1.4;
+        padding: 0 10px; /* Add padding for readability */
+    }
+
+    /* Navbar Menu Icon */
+    .navbar-toggler {
+        font-size: 1.5rem; /* Make burger menu larger for easier interaction */
+    }
+
+    /* Work Highlights Section */
+    .card {
+        margin-bottom: 20px; /* Add spacing between stacked cards */
+    }
+}
